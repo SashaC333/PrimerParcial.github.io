@@ -1,0 +1,255 @@
+*{
+    box-sizing: border-box;
+    font-family: "SUSE", system-ui;
+    font-size: 20px;
+    color: #070710;
+
+    /*
+    font-family: "Permanent Marker", cursive;
+    */
+}
+main{
+    width: 1366px;
+    height: 2000px;
+    margin: 0 auto;
+}
+
+
+header{
+    width: 1366px;
+    height: 200px;
+    background-color: #2c2c54;
+    float: left;
+    text-align: center;
+    padding: 40px;
+}
+header .logo{
+    width: 180px;
+    height: 100%;
+    float: left;
+}
+header h2{
+    width: 500px;
+    height: 100%;
+    font-size: 50px;
+    float: left;
+    display: flex;
+    align-items: center;
+    font-family: "Permanent Marker", cursive;
+    color: #5ab5ea;
+}
+header .usuario{
+    width: 180px;
+    height: 100%;
+    float: right;
+    align-items: end;
+}
+
+
+nav{
+    width: 1366px;
+    height: 60px;
+    background-color: #706fd3;
+    /*Propiedades solo para NAV*/
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav a{
+    width: 200px;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border:#f1eff7 2px solid;
+    color: #f1eff7;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    background-color: #e0d35a;
+    color: #2c2c54;
+    border: #66badf;
+    transform: translateX(30px) scale(1.2);
+}
+
+
+
+section{
+    width: 1366px;
+    height: 2400px;
+    text-align: left;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+    background-color: #f1eff7;
+
+}
+
+
+section .bloque{
+    width: 1286px;
+    height: 300px;
+    float: left;
+    margin-bottom: 200px;
+}
+.bloque ul li{
+    list-style:none;
+    color:#070710;
+    transition: 0.5s;
+}
+.bloque ul li img{
+    height: 90%;
+    margin-right: 10px;
+}
+
+.bloque ul li a:hover{
+    color: #706fd3;
+    font-family: "Permanent Marker", cursive;
+    
+}
+
+.bloque p{
+    background-color: #71c6ebbd;
+    font-size: 25px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.bloque .general{
+    width: 643px;
+    height: 348px;
+    float: left;
+    padding-right: 40px;
+
+}
+.general a{
+    text-decoration: none;
+}
+
+.bloque .general_img{
+    width: 643px;
+    height: 348px;
+    float: left;
+    text-align: center;
+}
+
+section .bloque .general_img img{ /**/
+    width: 100%;
+}
+
+section .conferencia{
+    width: 1286px;
+    height: 390px;
+    float: left;
+}
+
+.conferencia .contenido{ 
+    width: 1286px;
+    height: 290px;
+    float: left;
+}
+
+.contenido .fecha{
+    width: 287px;
+    height: 270px;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    background-color: #e0d35a;
+}
+
+.fecha a, b{
+    text-decoration: none;
+    color:#2c2c54;
+}
+
+.fecha b:hover{
+    color:#706fd3;
+}
+
+.contenido .info{
+    width: 624px;
+    height: 270px;
+    float: left;
+    margin: 10px;
+    
+    padding: 10px;
+    background-color:  #71c6ebbd;
+}
+
+.contenido h3{
+    margin-bottom: 40px;
+
+}
+.texto p{
+    font-size: 25px;
+}
+
+
+.contenido .imagen{
+    width: 307px;
+    height: 270px;
+    margin: 10px;
+    float: left;
+    background-color:#2e2e42;
+}
+
+.imagen img{
+    margin: 10px;
+    height: 96%;
+}
+
+section .contacto{
+    width: 921px;
+    height: 390px;
+    margin-top: 100px;
+}
+
+section .contacto img{
+    width: 100%;
+}
+
+
+
+footer{
+    width: 1366px;
+    height: 200px;
+    background-color: #2c2c54;
+    text-align: center;
+    padding: 20px;
+}
+
+footer h2{
+    font-size: 30px;
+    font-family: "Permanent Marker", cursive;
+    color: #5ab5ea;
+
+}
+
+footer img{
+    width: 90px;
+    height: 50%;
+    align-items: center;
+}
+
+
+/*ETIQUETAS TAMAÑO*/
+h1{
+    font-size: 50px;
+    margin: 0%;
+    color: #2c2c54;
+
+}
+h2{
+    font-size: 40px;
+    margin: 0%;
+    color: #2c2c54;
+}
+h3{
+    font-size: 24px;
+    margin: 0%;
+
+}
+
+
